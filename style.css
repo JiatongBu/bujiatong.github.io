@@ -1,0 +1,217 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+     font-family: 'source';
+     src: url(https://lotusrootrecords.neocities.org/fonts/SourceSansPro-Light.ttf);
+}
+/*
+@font-face {
+     font-family: 'pc98';
+     src: url(https://lotusrootrecords.neocities.org/fonts/pc9800.ttf);
+} */
+
+
+#header {
+  
+  padding: 30px 20px;
+  /* border-color: #555555; */
+  /* border-style: inset; */
+  
+  background-color: rgba(255, 240, 210, .8);
+  /* border-width: 4px 4px 4px 4px; */
+  
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  font-family: 'Times New Roman';
+  font-size: 115%;
+  line-height: 2.0em;
+  
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+#header li a {
+  color: #000000;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  color: #1c3d82; 
+  text-decoration: underline;
+}
+
+body {
+  /* background-color:  #1c3d82; */
+  
+  /*background: rgb(84,88,126);
+  background: linear-gradient(0deg, rgba(84,88,126,1) 0%, rgba(162,129,142,1) 47%, rgba(84,88,126,1) 100%); */
+  
+  
+  background: rgb(84,88,126);
+  background: linear-gradient(0deg, rgba(84,88,126,1) 0%, rgba(131,82,45,1) 47%, rgba(84,88,126,1) 100%);
+  
+  
+  background-image: url("../images/bg/nightstars.gif");
+	
+  font-size: 105%;
+  font-family: 'Times New Roman';
+  /* color: #222222; */ /* gray */   
+  color: #000000;
+  
+  /* margin: 1.25em; */
+}
+
+p {
+  line-height: 1.2em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+p.date {
+  font-family: 'source';
+  font-weight: bold;
+  font-size: 120%;
+  margin: 0em;
+  /* text-align: center;*/
+}
+
+.tab { margin-left: 40px; }
+
+hr {
+  /* border: solid #c7b591;*/
+  border-width: 0px 0 0 0; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  opacity: 1; 
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+  
+
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+a:link {
+  color: #2c5fcc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #2c5fcc; 
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover { 
+  color: #5a84dc;
+  /* background-color: #202020; */
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'source';
+  
+  /* color: #ffffff; */
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+
+
+#container {
+
+  margin: 1em auto;
+  width: 90%; 
+	max-width: 900px;
+	margin-left: 100px;
+	
+	
+	/*background-color: rgba(255, 255, 255, 0.99);*/
+	
+  outline-width: 4px;
+  outline-offset: 0px;
+
+}
+
+
+#content {
+  margin: 3% 0% 0px 0%;
+  padding: 1px 2% 2% 2%; 
+  
+  background-color: rgba(255, 240, 210, 1.0);
+  
+  /* border-style: inset;
+  border-color: #555555; */
+}
+
+#footer {
+  font-size: 1.0em;
+  padding: 2% 2% 2% 2%;
+}
+
+@media only screen and (max-width: 800px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+  #header {
+    height: 10%;
+    width: 96%;
+    padding: 0 2%;
+    top: auto; left: auto;
+    position: relative;
+    background-color: rgba(255, 240, 210, 1.0);
+    font-size: 100%;
+    line-height: 1.5em;
+  }
+  #container {
+    margin-left: 0;
+    right: 0;
+    width: 100%;
+    
+  }
+  
+  .grid-container {
+  grid: auto / auto auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+}
