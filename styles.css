@@ -197,7 +197,7 @@ body {
        margin-left: 16%;
        margin-right: 5%;
        padding-left: 10px;
-       max-width: 90%;
+       
      }
    
      .sidebar {
@@ -217,13 +217,14 @@ body {
        .flex-container1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         /* align-items: center;  */
         margin-bottom: 0.5%;
         margin-left: 0.5%;
         margin-right:0;
-        border-bottom: 2px solid #951f20; /* Solid vertical line on the left */
+        border-bottom: 1px solid #951f20; /* Solid vertical line on the left */
         padding-bottom: 0.5%; /* Spacing between the line and the text */
+        text-align: left;
       }
 
       .flex-container {
