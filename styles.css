@@ -219,6 +219,7 @@ body {
         flex-direction: column;
         /* justify-content: space-between; */
         /* align-items: center;  */
+        align-items: flex-start;
         margin-bottom: 0.5%;
         margin-left: 0.5%;
         margin-right:0;
@@ -247,7 +248,7 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .menu {
     /* width: 80%;  */
      background-color: rgb(255, 255, 255);
