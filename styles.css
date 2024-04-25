@@ -209,8 +209,8 @@ body {
          position: fixed;  */
          top:0;
          left: 5px; /* Position the navbar at the top of the page */
-         width: 30%; /* Full width */
-         height: 16%;          /* Height of the rectangle */
+         width: 60%; /* Full width */
+         height: 10%;          /* Height of the rectangle */
          border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
          border-radius: 10px;    /* Radius of the corners */
          font-size: 20px;
