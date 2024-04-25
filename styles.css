@@ -204,11 +204,12 @@ body {
          flex-direction: row;
          align-items: center;
          background-color: white;
+         justify-content: space-between;
 /*          overflow: hidden;
          position: fixed;  */
          top:0;
          left: 5px; /* Position the navbar at the top of the page */
-         width: 60%; /* Full width */
+         width: 50%; /* Full width */
          height: 10%;          /* Height of the rectangle */
          border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
          border-radius: 10px;    /* Radius of the corners */
