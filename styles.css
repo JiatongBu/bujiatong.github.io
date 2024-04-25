@@ -184,35 +184,3 @@ body {
     font-style: normal;
   }
   
-
-  @media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .flex-item {
-        margin-bottom: 5px;
-    }
-}
-
-/* Styles for mobile phones */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-        padding: 5px;
-    }
-
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .flex-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
