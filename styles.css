@@ -7,25 +7,61 @@ body {
     color: #333;
   }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-    margin-bottom: 20px;
+  @media (min-width: 1201px) {
+    .menu {
+      /* width: 80%;  */
+       background-color: rgb(255, 255, 255);
+       margin-left: 24%;
+       margin-right: 10%;
+       padding: 20px;
+       max-width: 1200px;
+     }
+   
+     .sidebar {
+         overflow: hidden;
+         background-color: white;
+   
+         position: fixed; /* Set the navbar to fixed position */
+         top:50px;
+         left: 50px; /* Position the navbar at the top of the page */
+         width: 16%; /* Full width */
+         height: 300px;          /* Height of the rectangle */
+         border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
+         border-radius: 10px;    /* Radius of the corners */
+         font-size: 20px;
+       }
+       .education-list {
+        display: flex;
+        font-size: 20px;
+        flex-direction: column; /* Aligns the education items in a column */
+        justify-content: flex-start; /* Aligns items to the start of the flex direction */
+        width: 70%; /* Adjust based on your layout needs */
+        margin-bottom: 0;  
+    }
+    
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* align-items: center; */
+      margin-bottom: 20px;
+    }
+  
+  .flex-container1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; 
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right:10px;
+      border-right: 2px solid #951f20; /* Solid vertical line on the left */
+      padding-right: 10px; /* Spacing between the line and the text */
+    }
+
   }
 
-.flex-container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right:10px;
-    border-right: 2px solid #951f20; /* Solid vertical line on the left */
-    padding-right: 10px; /* Spacing between the line and the text */
-  }
+
 
 .flex-item {
   display: flex;
@@ -45,17 +81,7 @@ body {
 
 }
 
-.education-list {
-    display: flex;
-    font-size: 20px;
-    flex-direction: column; /* Aligns the education items in a column */
-    justify-content: flex-start; /* Aligns items to the start of the flex direction */
-    width: 70%; /* Adjust based on your layout needs */
-    margin-bottom: 0;
-    
 
-    
-}
 
   h1 {
     font-size: 40px;
@@ -90,33 +116,6 @@ body {
     margin-bottom: 0;
   }
   
-  
-  .menu {
-   /* width: 80%;  */
-    background-color: rgb(255, 255, 255);
-    margin-left: 24%;
-    margin-right: 10%;
-    padding: 20px;
-    max-width: 1200px;
-  }
-
-  .sidebar {
-      overflow: hidden;
-      background-color: white;
-
-      position: fixed; /* Set the navbar to fixed position */
-      top:50px;
-      left: 50px; /* Position the navbar at the top of the page */
-      width: 16%; /* Full width */
-      height: 300px;          /* Height of the rectangle */
-      border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
-      border-radius: 10px;    /* Radius of the corners */
-      font-size: 20px;
-    }
-    
-
-
-
 
   .bold {
     font-weight: bold;
