@@ -76,10 +76,13 @@ body {
     /* font-style: italic; */
     text-align:right;
   }
+
   .established1 {
     /* font-style: italic; */
     text-align:right;
+    font-size: 20px;
     padding-bottom: 0.5%;
+    font-family: "Montserrat", sans-serif;
   }
 
   p{
@@ -89,13 +92,12 @@ body {
   
   
   .menu {
-   
+   /* width: 80%;  */
     background-color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: 5%;
+    margin-left: 24%;
+    margin-right: 10%;
     padding: 20px;
-    /* max-width: 80%; */
-    /* width: 50%; */
+    max-width: 1200px;
   }
 
   .sidebar {
@@ -105,8 +107,7 @@ body {
       position: fixed; /* Set the navbar to fixed position */
       top:50px;
       left: 50px; /* Position the navbar at the top of the page */
-      width: 25%; /* Full width */
-      width: 15%;           /* Width of the rectangle */
+      width: 16%; /* Full width */
       height: 300px;          /* Height of the rectangle */
       border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
       border-radius: 10px;    /* Radius of the corners */
@@ -188,3 +189,49 @@ body {
     font-style: normal;
   }
   
+
+  @media (max-width: 480px) {
+    .menu {
+      /* width: 80%;  */
+       background-color: rgb(255, 255, 255);
+       margin-left: 25%;
+       margin-right: 10%;
+       padding: 20px;
+       max-width: 80%;
+     }
+   
+     .sidebar {
+         overflow: hidden;
+         background-color: white;
+   
+         position: fixed; /* Set the navbar to fixed position */
+         top:50px;
+         left: 50px; /* Position the navbar at the top of the page */
+         width: 16%; /* Full width */
+         height: 20%;          /* Height of the rectangle */
+         border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
+         border-radius: 10px;    /* Radius of the corners */
+         font-size: 20px;
+       }
+
+       .flex-container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right:10px;
+        border-bottom: 2px solid #951f20; /* Solid vertical line on the left */
+        padding-bottom: 10px; /* Spacing between the line and the text */
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin-bottom: 20px;
+      }
+
+}
