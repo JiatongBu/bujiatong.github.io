@@ -221,7 +221,7 @@ body {
         /* align-items: center;  */
         margin-bottom: 0.5%;
         margin-left: 0.5%;
-        margin-right:0.5%;
+        margin-right:0;
         border-bottom: 2px solid #951f20; /* Solid vertical line on the left */
         padding-bottom: 0.5%; /* Spacing between the line and the text */
       }
@@ -231,8 +231,16 @@ body {
         flex-direction: column;
         justify-content: space-between;
         /* align-items: center; */
-        margin-right: 5%;
+        margin-right: 0;
         margin-bottom: 5%;
       }
+
+      .education-list {
+        display: flex;
+        font-size: 20px;
+        flex-direction: column; /* Aligns the education items in a column */
+        justify-content: flex-start; /* Aligns items to the start of the flex direction */
+        max-width: 90%; /* Adjust based on your layout needs */
+        margin-bottom: 0;
 
 }
