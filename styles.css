@@ -201,14 +201,16 @@ body {
      }
    
      .sidebar {
-         overflow: hidden;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
          background-color: white;
-   
-         position: fixed; /* Set the navbar to fixed position */
-         top:50px;
+/*          overflow: hidden;
+         position: fixed;  */
+         top:0;
          left: 5px; /* Position the navbar at the top of the page */
-         width: 16%; /* Full width */
-         height: 30%;          /* Height of the rectangle */
+         width: 30%; /* Full width */
+         height: 16%;          /* Height of the rectangle */
          border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
          border-radius: 10px;    /* Radius of the corners */
          font-size: 20px;
@@ -248,7 +250,7 @@ body {
 
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1200px) {
   .menu {
     /* width: 80%;  */
      background-color: rgb(255, 255, 255);
