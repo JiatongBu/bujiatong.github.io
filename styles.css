@@ -243,6 +243,7 @@ body {
         justify-content: flex-start; /* Aligns items to the start of the flex direction */
         max-width: 90%; /* Adjust based on your layout needs */
         margin-bottom: 0;
+      }
 
 }
 
@@ -299,5 +300,5 @@ body {
       justify-content: flex-start; /* Aligns items to the start of the flex direction */
       max-width: 90%; /* Adjust based on your layout needs */
       margin-bottom: 0;
-
-}
+    }
+  }
