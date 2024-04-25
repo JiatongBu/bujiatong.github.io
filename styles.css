@@ -195,7 +195,7 @@ body {
       /* width: 80%;  */
        background-color: rgb(255, 255, 255);
        margin-left: 16%;
-       margin-right: 5%;
+       margin-right: 0;
        padding-left: 10px;
        
      }
@@ -243,5 +243,61 @@ body {
         justify-content: flex-start; /* Aligns items to the start of the flex direction */
         max-width: 90%; /* Adjust based on your layout needs */
         margin-bottom: 0;
+
+}
+
+@media (max-width: 768px) {
+  .menu {
+    /* width: 80%;  */
+     background-color: rgb(255, 255, 255);
+     margin-left: 16%;
+     margin-right: 5%;
+     padding-left: 10px;
+     
+   }
+ 
+   .sidebar {
+       overflow: hidden;
+       background-color: white;
+ 
+       position: fixed; /* Set the navbar to fixed position */
+       top:50px;
+       left: 5px; /* Position the navbar at the top of the page */
+       width: 16%; /* Full width */
+       height: 30%;          /* Height of the rectangle */
+       border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
+       border-radius: 10px;    /* Radius of the corners */
+       font-size: 20px;
+     }
+
+     .flex-container1 {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+      /* align-items: center;  */
+      margin-bottom: 0.5%;
+      margin-left: 0.5%;
+      margin-right:0;
+      border-bottom: 1px solid #951f20; /* Solid vertical line on the left */
+      padding-bottom: 0.5%; /* Spacing between the line and the text */
+      text-align: left;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* align-items: center; */
+      margin-right: 0;
+      margin-bottom: 5%;
+    }
+
+    .education-list {
+      display: flex;
+      font-size: 20px;
+      flex-direction: column; /* Aligns the education items in a column */
+      justify-content: flex-start; /* Aligns items to the start of the flex direction */
+      max-width: 90%; /* Adjust based on your layout needs */
+      margin-bottom: 0;
 
 }
