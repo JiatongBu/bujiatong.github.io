@@ -75,7 +75,11 @@ body {
   .established {
     /* font-style: italic; */
     text-align:right;
-
+  }
+  .established1 {
+    /* font-style: italic; */
+    text-align:right;
+    padding-bottom: 0.5%;
   }
 
   p{
@@ -88,7 +92,7 @@ body {
    
     background-color: rgb(255, 255, 255);
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 5%;
     padding: 20px;
     /* max-width: 80%; */
     /* width: 50%; */
