@@ -1,34 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    color: #333;
   }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 20px;
+  }
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right:10px;
+    border-right: 2px solid #951f20; /* Solid vertical line on the left */
+    padding-right: 10px; /* Spacing between the line and the text */
+  }
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
   
+  /* margin-bottom: 1px;  */
+
+}
+
+.flex-item1 {
+  text-align: center;     /* Centers the text horizontally */
+  padding: 20px 0px;      /* Adjust padding as needed */
+  text-decoration: none;  /* Removes the underline from links */
+
+  /* margin-bottom: 1px;  */
+
+}
+
+.education-list {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column; /* Aligns the education items in a column */
+    justify-content: flex-start; /* Aligns items to the start of the flex direction */
+    width: 70%; /* Adjust based on your layout needs */
+    margin-bottom: 0;
+    
+
+    
+}
+
   h1 {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    font-weight: normal;
+    font-family: Georgia, sans-serif;
   }
   
   h2 {
     font-size: 30px;
+    text-align: left;
+    color:#951f20;
+    font-family: "Montserrat", sans-serif;
   }
   
   .established {
-    font-style: italic;
+    /* font-style: italic; */
+    text-align:right;
+
+  }
+
+  p{
+    margin-top: 10px;
+    margin-bottom: 0;
   }
   
-  h1, h2, p {
-    text-align: center;
-  }
   
   .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+   /* width: 80%;  */
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-right: 120px;
     padding: 20px;
-    max-width: 500px;
+    max-width: 1200px;
+  }
+
+  .sidebar {
+      overflow: hidden;
+      background-color: white;
+
+      position: fixed; /* Set the navbar to fixed position */
+      top:50px;
+      left: 50px; /* Position the navbar at the top of the page */
+      width: 25%; /* Full width */
+      width: 300px;           /* Width of the rectangle */
+      height: 300px;          /* Height of the rectangle */
+      border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
+      border-radius: 10px;    /* Radius of the corners */
+      font-size: 20px;
+    }
+    
+
+
+
+
+  .bold {
+    font-weight: bold;
   }
   
   img {
@@ -39,31 +124,25 @@ body {
   
   hr {
     height: 2px;
-    background-color: brown;
-    border-color: brown;
+    background-color: black;
+    border-color: black;
   }
   
   .bottom-line {
     margin-top: 25px;
   }
   
-  h1, h2 {
-    font-family: Impact, serif;
-  }
+/*   h1, h2, p {
+    font-family: 'Times New Roman', Times, serif;
+  } */
   
-  .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
   
   .flavor, .dessert {
     text-align: left;
     width: 75%;
   }
   
-  .price {
+  .year {
     text-align: right;
     width: 25%;
   }
@@ -78,18 +157,29 @@ body {
     margin-bottom: 5px;
   }
   
+
   a {
-    color: black;
+    text-decoration: none;
+    color: #951f20;
   }
   
   a:visited {
-    color: black;
+    color: #951f20;
   }
   
   a:hover {
-    color: brown;
+    text-decoration: underline;
+    color: grey;
   }
   
   a:active {
-    color: brown;
+    color: grey;
   }
+
+  .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  

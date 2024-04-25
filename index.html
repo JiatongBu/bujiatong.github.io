@@ -5,56 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
     <link href="styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
+
   <body>
+    <div class="sidebar">
+      <article class="flex-item1">
+        <p>
+          Email:<a href="mailto:c338820@outlook.com">c338820@outlook.com</a>
+        </p>
+      </article>
+      <article class="flex-item1">
+        <p>Twitter</p>
+      </article>
+      <article class="flex-item1">
+        <p> <a href="https://github.com/Bujiatong">Github</a> </p>
+      </article>
+      <article class="flex-item1">
+        <p><a href="https://jiatongbu.substack.com">Blog</a></p>
+      </article>
+    </div>
+
+
     <div class="menu">
       <main>
-        <h1>CAMPER CAFE</h1>
-        <p class="established">Est. 2020</p>
-        <hr>
-        <section>
-          <h2>Coffee</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
-          <article class="item">
-            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+        <h1 class="established" >BU JIATONG</h1>
+        <section class="flex-container">
+          <h2 class="flex-container1">Education</h2>
+          <!-- <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>    -->
+          <div class="education-list">
+          <article class="flex-item">
+            <p class="bold">City University of Hong Kong</p><p class="year">2022.08 - 2024.02</p>
           </article>
-          <article class="item">
-            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          <article class="flex-item">
+            <p>MSc. Electronic Information Engineering</p>
           </article>
-          <article class="item">
-            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          <article class="flex-item">
+            <p class="bold">Nanjing University of Science and Technology</p><p class="year">2018.09 - 2022.06</p>
           </article>
-          <article class="item">
-            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          <article class="flex-item">
+            <p>BSc. Electronic Information Engineering</p>
           </article>
-          <article class="item">
-            <p class="flavor">Mocha</p><p class="price">4.50</p>
-          </article>
+          </div>
         </section>
-        <section>
-          <h2>Desserts</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
-          <article class="item">
-            <p class="dessert">Donut</p><p class="price">1.50</p>
+
+        <section class="flex-container">
+          <h2 class="flex-container1">Employment</h2>
+          <div class="education-list">
+          <article class="flex-item">
+            <p class="bold">Intern, <a href=https://www.smartcitysz.com/Shenzhen> Smart City Science and Technology Development Group</a> </p><p class="year">2023.07 - 2023.10</p>
           </article>
-          <article class="item">
-            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          <article class="flex-item">
+            <p>Wireless Engineer</p>
           </article>
-          <article class="item">
-            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          <article class="flex-item">
+            <p class="bold">Intern, <a href=https://www.chinatelecom-h.com/en/global/home.phpChinese> China Telecom</a> , Taizhou Branch</p><p class="year">2022.06 - 2022.08</p>
           </article>
-          <article class="item">
-            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          <article class="flex-item">
+            <p>Front-end Engineer</p>
           </article>
+          </div>
         </section>
+
+        <section class="flex-container">
+          <h2 class="flex-container1">Skills</h2>
+          <div class="education-list">
+          <article class="flex-item">
+            <p><span class="bold">Proficient in</span> Python, PyTorch, SQL, HTML/CSS/JS </p>
+          </article>
+          <article class="flex-item">
+            <p><span class="bold">Knowledge of</span> React/redux, Gremlin, Tensorflow, Docker, MongoDB, C++</p>
+          </article>
+          <article class="flex-item">
+            <p>            
+              &#8226; Madarin Native <br>
+              &#8226; English Fluent <br>
+              &#8226; French Advanced
+            </p>
+          </article>
+          </div>
+        </section>
+
+
+        <section class="flex-container">
+          <h2 class="flex-container1">Interests</h2>
+          <div class="education-list">
+          <article class="flex-item">
+            <p class="bold">Intern, <a href=https://www.smartcitysz.com/Shenzhen> Smart City Science and Technology Development Group</a> </p><p class="year">2023.07 - 2023.10</p>
+          </article>
+          <article class="flex-item">
+            <p>Wireless Engineer</p>
+          </article>
+          <article class="flex-item">
+            <p class="bold">Intern, Chinese Telecom, Taizhou Branch</p><p class="year">2022.06 - 2022.08</p>
+          </article>
+          <article class="flex-item">
+            <p>Front-end Engineer</p>
+          </article>
+          </div>
+
+        </section>
+
       </main>
-      <hr class="bottom-line">
+
+<!--       <hr class="bottom-line">
       <footer>
         <p>
           <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
         </p>
         <p class="address">123 Free Code Camp Drive</p>
-      </footer>
+      </footer> -->
     </div>
+
+  
+
+
   </body>
 </html>
