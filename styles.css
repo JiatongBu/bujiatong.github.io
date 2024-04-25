@@ -194,7 +194,7 @@ body {
     .menu {
       /* width: 80%;  */
        background-color: rgb(255, 255, 255);
-       margin-left: 25%;
+       margin-left: 18%;
        margin-right: 10%;
        padding: 20px;
        max-width: 80%;
@@ -206,9 +206,9 @@ body {
    
          position: fixed; /* Set the navbar to fixed position */
          top:50px;
-         left: 50px; /* Position the navbar at the top of the page */
+         left: 5px; /* Position the navbar at the top of the page */
          width: 16%; /* Full width */
-         height: 20%;          /* Height of the rectangle */
+         height: 30%;          /* Height of the rectangle */
          border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
          border-radius: 10px;    /* Radius of the corners */
          font-size: 20px;
