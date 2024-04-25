@@ -87,8 +87,8 @@ body {
   .menu {
    
     background-color: rgb(255, 255, 255);
-    margin-left: 25%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     max-width: 80%;
     /* width: 50%; */
@@ -102,7 +102,7 @@ body {
       top:50px;
       left: 50px; /* Position the navbar at the top of the page */
       width: 25%; /* Full width */
-      width: 300px;           /* Width of the rectangle */
+      width: 15%;           /* Width of the rectangle */
       height: 300px;          /* Height of the rectangle */
       border: 2px solid rgb(221, 219, 219); /* Thick solid green border */
       border-radius: 10px;    /* Radius of the corners */
