@@ -194,9 +194,9 @@ body {
     .menu {
       /* width: 80%;  */
        background-color: rgb(255, 255, 255);
-       margin-left: 18%;
-       margin-right: 10%;
-       padding: 20px;
+       margin-left: 16%;
+       margin-right: 5%;
+       padding: 10px;
        max-width: 80%;
      }
    
@@ -219,9 +219,9 @@ body {
         flex-direction: column;
         justify-content: space-between;
         align-items: center; 
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right:10px;
+        margin-bottom: 0.5%;
+        margin-left: 0.5%;
+        margin-right:auto;
         border-bottom: 2px solid #951f20; /* Solid vertical line on the left */
         padding-bottom: 10px; /* Spacing between the line and the text */
       }
